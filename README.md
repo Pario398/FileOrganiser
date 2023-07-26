@@ -48,7 +48,7 @@ Enter Destination Folder Path:C:/Users/users/Downloads
 ```
 Which sorts the files like this:
 ```bash
-Destination Folder/
+Downloads/
     Audio/
         song.mp3
     Video/
