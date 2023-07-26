@@ -39,6 +39,7 @@ The **FileOrganiser function** is the heart of the script. It takes two argument
 
 * `fileFolder`: The path to the folder containing the files.
 * `destinationFolder`: The path to the folder where the organised files will be moved.
+
 The function iterates through each category and creates the subfolders within the destination folder. It then goes through the specified fileFolder, identifies the category of each file based on its extension, and moves it to the corresponding subfolder.
 
 ## Example
