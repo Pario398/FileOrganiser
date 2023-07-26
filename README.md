@@ -33,10 +33,32 @@ img = ('.jpg', '.jpeg', '.png', '.svg', '.gif')
 docs = ('.doc', '.docx', '.pdf', '.rtf', '.txt')
 ```
 
-##File Organizer Function
+## File Organizer Function
 
 The **FileOrganiser function** is the heart of the script. It takes two arguments:
 
 * `fileFolder`: The path to the folder containing the files.
 * `destinationFolder`: The path to the folder where the organised files will be moved.
 The function iterates through each category and creates the subfolders within the destination folder. It then goes through the specified fileFolder, identifies the category of each file based on its extension, and moves it to the corresponding subfolder.
+
+## Example
+```bash
+Enter File Path:C:/Users/users/Downloads
+Enter Destination Folder Path:C:/Users/users/Downloads
+```
+Which sorts the files like this:
+```bash
+Destination Folder/
+    Audio/
+        song.mp3
+    Video/
+        video.mp4
+    Images/
+        image.jpg
+    Docs/
+        document.pdf
+        notes.txt
+    Others/
+        random.exe
+
+```
