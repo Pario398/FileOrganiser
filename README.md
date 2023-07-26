@@ -4,7 +4,7 @@ The "File Organizer" script is a Python program designed to organise files in a 
 
 ## Usage
 
-1. Get a copy of the FileOrganiser.py
+1. Get a copy of the `FileOrganiser.py`
 2. Open a terminal or command prompt.
 3. Navigate to the directory where the Python script is located.
 4. Run the script using the command: `python FileOrganizer.py`
@@ -23,6 +23,7 @@ In this section, we import two Python modules:
 
 * `os`: This module provides a way to interact with the operating system, enabling file and directory-related operations.
 * `shutil`: This module offers high-level file operations like moving files, copying files, etc.
+  
 ## File Extensions
 
 ```python
@@ -32,3 +33,10 @@ img = ('.jpg', '.jpeg', '.png', '.svg', '.gif')
 docs = ('.doc', '.docx', '.pdf', '.rtf', '.txt')
 ```
 
+##File Organizer Function
+
+The **FileOrganiser function** is the heart of the script. It takes two arguments:
+
+* `fileFolder`: The path to the folder containing the files.
+* `destinationFolder`: The path to the folder where the organised files will be moved.
+The function iterates through each category and creates the subfolders within the destination folder. It then goes through the specified fileFolder, identifies the category of each file based on its extension, and moves it to the corresponding subfolder.
